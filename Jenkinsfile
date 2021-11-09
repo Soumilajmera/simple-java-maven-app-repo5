@@ -6,7 +6,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'mvn -B -DskipTests clean install package' 
-            },
+            }
             steps
       {
         def dockerHome = tool 'myDocker'
