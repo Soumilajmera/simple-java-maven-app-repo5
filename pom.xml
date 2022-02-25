@@ -9,6 +9,10 @@
   <url>http://maven.apache.org</url>	
   <dependencies>
     <dependency>
+	<id>github</id>
+        <name>simple-java-package</name>
+	<url>https://maven.pkg.github.com/Soumilajmera/simple-java-maven-app</url>
+        <layout>default</layout>
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-apps</artifactId>
   <version>1.5-SNAPSHOT</version>
