@@ -4,10 +4,15 @@
   <groupId>com.mycompany.app5</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.6-SNAPSHOT</version>
   <name>demo-java-apps</name>
   <url>http://maven.apache.org</url>	
   <dependencies>
+    <dependency>
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-apps</artifactId>
+  <version>1.5-SNAPSHOT</version>
+</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
