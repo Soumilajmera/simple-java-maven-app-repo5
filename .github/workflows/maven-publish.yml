@@ -23,6 +23,10 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
+        server-username: 'Soumilajmera'  # env variable name for username
+        server-password: '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'
+
+
         settings-path: /settings.xml
 
     - name: Build with Maven
