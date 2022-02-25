@@ -30,7 +30,7 @@ jobs:
         settings-path: settings.xml
 
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B install package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy
