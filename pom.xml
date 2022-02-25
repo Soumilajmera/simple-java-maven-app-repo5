@@ -50,7 +50,7 @@
 
       <!-- <url>file:///home/ec2-user/.m2</url> -->
 
-       <url>https://github.com/Soumilajmera/simple-java-maven-app.git</url>
+       <url>https://github.com/Soumilajmera/simple-java-maven-app</url>
 
         <layout>default</layout>
 
