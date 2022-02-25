@@ -27,7 +27,7 @@ jobs:
         server-password: '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'
 
 
-        settings-path: /settings.xml
+        settings-path: settings.xml
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
