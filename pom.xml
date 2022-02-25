@@ -6,11 +6,9 @@
   <packaging>jar</packaging>
   <version>1.6-SNAPSHOT</version>
   <name>demo-java-apps</name>
-  <url>http://maven.apache.org</url>	
+  <url>https://maven.pkg.github.com/Soumilajmera/simple-java-maven-app</url>	
   <dependencies>
     <dependency>
-	<url>https://maven.pkg.github.com/Soumilajmera/simple-java-maven-app</url>
-        <layout>default</layout>
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-apps</artifactId>
   <version>1.5-SNAPSHOT</version>
