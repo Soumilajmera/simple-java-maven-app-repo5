@@ -8,6 +8,11 @@
   <name>demo-java-apps</name>
   <url>http://maven.apache.org</url>	
   <dependencies>
+	  <dependency>
+  <groupId>com.mycompany.app5</groupId>
+  <artifactId>my-apps</artifactId>
+  <version>1.5-SNAPSHOT</version>
+</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
