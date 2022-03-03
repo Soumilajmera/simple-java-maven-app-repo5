@@ -7,32 +7,22 @@ on:
   push:
     branches:
     - master
+
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       contents: read
       packages: write
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up JDK 11
-      uses: actions/setup-java@v2
-      with:
-        java-version: '11'
-        distribution: 'temurin'
-        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
-        server-username: 'Soumilajmera'  # env variable name for username
-        server-password: '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'
 
 
-        settings-path: settings.xml
 
-    - name: Build with Maven
-      run: mvn -B install package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy
+      run: mvn deploy --file /home/ec2-user/actions-runner/_work/simple-java-maven-app/simple-java-maven-app/pom.xml
       env:
         GITHUB_TOKEN: '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'
