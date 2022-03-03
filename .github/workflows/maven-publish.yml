@@ -23,7 +23,7 @@ jobs:
 
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy --file /home/ec2-user/actions-runner/_work/simple-java-maven-app-repo5/simple-java-maven-app-repo5
+      run: mvn install --file /home/ec2-user/actions-runner/_work/simple-java-maven-app-repo5/simple-java-maven-app-repo5
 
       env:
         GITHUB_TOKEN: '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'
